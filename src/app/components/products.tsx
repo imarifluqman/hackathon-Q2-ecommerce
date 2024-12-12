@@ -1,22 +1,45 @@
 import React from 'react'
 import Heading from './heading'
 import Card from './card'
+import {
+    Carousel,
+    CarouselContent,
+    CarouselItem,
+
+} from "@/components/ui/carousel"
 
 function Products() {
     return (
         <div className='lg:w-[80vw] mx-auto my-10'>
             <Heading>Featured  Products</Heading>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4'>
+            <Carousel>
+                <CarouselContent>
+                    <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/4 my-2">
+                        <Card />
+                    </CarouselItem>
+                    <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/4 my-2">
+                        <Card />
+                    </CarouselItem>
+                    <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/4 my-2">
+                        <Card />
+                    </CarouselItem>
+                    <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/4 my-2">
+                        <Card />
+                    </CarouselItem>
+                    <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/4 my-2">
+                        <Card />
+                    </CarouselItem>
+                    <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/4 my-2">
+                        <Card />
+                    </CarouselItem>
+                    <CarouselItem className="basis-1/2 md:basis-1/3 lg:basis-1/4 my-2">
+                        <Card />
+                    </CarouselItem>
 
-                <Card />
-                <Card />
-                <Card />
-                <Card />
+                </CarouselContent>
 
-
-
-            </div>
+            </Carousel>
 
         </div>
     )

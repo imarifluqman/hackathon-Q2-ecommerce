@@ -7,7 +7,7 @@ import { FiZoomIn } from "react-icons/fi";
 function Card() {
     return (
 
-        <div className=' w-[260px] mx-auto group relative overflow-hidden '
+        <div className=' lg:w-[260px] md:w-[220px] w-[180px] mx-auto group relative overflow-hidden '
             style={{ boxShadow: "rgba(0, 0, 0, 0.1) 0px 4px 12px, rgba(0, 0, 0, 0.04) 0px 2px 4px" }}>
             <div className='w-full relative p-6 bg-[#F6F7FB] flex justify-center items-center'>
                 <div className='absolute -top-6 left-5 flex justify-center items-center gap-2 group-hover:top-3'>

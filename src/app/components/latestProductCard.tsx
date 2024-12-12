@@ -5,11 +5,11 @@ import { CgShoppingCart } from "react-icons/cg";
 import { FiZoomIn } from "react-icons/fi";
 function LatestProductCard() {
     return (
-        <div className='w-[310px] mx-auto group relative overflow-hidden'>
+        <div className='lg:w-[310px] w-[90%] mx-auto group relative overflow-hidden'>
             <div className='w-full h-[200px] bg-slate-100'>
-                <div className='absolute -top-10 -left-10 group-hover:top-8 group-hover:left-2 -rotate-45 bg-[var(--pink)] text-white text-[10px] font-semibold py-1 px-6'>Sale</div>
+                <div className='absolute top-8 left-2  -rotate-45 bg-[var(--pink)] text-white text-[10px] font-semibold py-1 px-6'>Sale</div>
                 <div className='w-full flex justify-center items-center'>
-                    <Image className='w-auto h-auto' src="/p-chair.png" alt="latest" width={310} height={200} />
+                    <Image className='lg:w-full lg:h-[200px] w-full h-[200px] border' src="/p-chair.png" alt="latest" width={100} height={100} />
                 </div>
                 <div className=' flex flex-col justify-center items-start gap-1 absolute group-hover:left-4 bottom-10 -left-10'>
                     <span className='text-blue-600 w-8 h-8 rounded-full flex justify-center items-center hover:bg-slate-200 hover:text-[var(--pink)] hover:w-8 hover:h-8 hover:rounded-full hover:p-1 ' >

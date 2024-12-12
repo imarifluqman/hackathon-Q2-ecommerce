@@ -4,6 +4,7 @@ import Navbar from "./components/navbar";
 import Offer from "./components/offer";
 import Products from "./components/products";
 import TopNav from "./components/topNav";
+import UniqueFeature from "./components/uniqueFeature";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Products />
       <LatestProducts />
       <Offer />
+      <UniqueFeature />
     </main>
   );
 }
