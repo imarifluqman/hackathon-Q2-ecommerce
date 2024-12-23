@@ -24,7 +24,7 @@ function Navbar() {
                     <li className='hover:text-[var(--pink)]'><Link className={`text-[16px] font-semibold ${lato.className}`} href="/">Contact</Link></li>
                 </ul>
                 <div className=' flex justify-center items-center '>
-                    <input className='h-[30px] border-2 outline-none px-2' type="search" />
+                    <input className='w-[200px] h-[30px] border-2 outline-none px-2' type="search" />
                     <button className='bg-[var(--pink)] w-[40px] h-[30px] flex justify-center items-center  '>
                         <CiSearch className='text-[20px] font-bold text-white ' />
                     </button>
