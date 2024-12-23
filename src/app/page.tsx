@@ -21,9 +21,6 @@ export default function Home() {
       <DiscountItems />
       <TopCategories />
       <NewsLetter />
-      {/* <div className='w-full flex justify-center my-5'>
-        <Image src="/partners.png" width={100} height={100} alt="partners" className="w-[400px]"/>
-      </div> */}
       <Blogs />
     </main>
   );

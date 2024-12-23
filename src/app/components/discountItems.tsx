@@ -12,19 +12,25 @@ const DiscountItems = () => {
             <div className="flex flex-col justify-center items-center my-10 gap-4">
                 <Heading>Discount Item</Heading>
                 <div>
-                    <div
-                        className={`text-[#151875] ${lato.className} flex flex-row gap-4 text-lg font-semibold `}
-                    >
-                        <Link href="" className="text-[#FB4997] inline-block">
-                            <span className="relative flex items-center justify-center">
-                                <span className="relative">Wood Chair</span>
-                                <span className="absolute bottom-0 left-0 right-0 mx-auto block h-[2px] bg-[#FB4997] w-full"></span>
-                            </span>
-                        </Link>
 
-                        <Link href="">Plastic Chair</Link>
-                        <Link href="">Sofa Chair</Link>
-                    </div>
+
+                    <ul className={`text-[#151875] ${lato.className} flex flex-row gap-4 text-lg font-semibold `}>
+                        <li>
+                            <Link href="" className="hover:text-[#FB4997] inline-block">
+                                Wood Chair
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="" className="hover:text-[#FB4997] inline-block">Plastic Chair</Link>
+                        </li>
+                        <li>
+                            <Link href="" className="hover:text-[#FB4997] inline-block">Sofa Chair</Link>
+
+                        </li>
+                    </ul>
+
+
+
                 </div>
                 {/* bottom part */}
                 <div className="max-w-[1000px] px-6 py-6 gap-5 flex flex-col md:flex-row justify-center items-center">
@@ -76,7 +82,7 @@ const DiscountItems = () => {
 
                     <div className="relative  min-w-[350px] min-h-[350px] bg-[#f9e8ef] rounded-full overflow-hidden">
                         <Image
-                            src={"/p-chair.png"}
+                            src={"/productImages/chair5.png"}
                             width={600}
                             height={600}
                             alt="Image"

@@ -12,7 +12,6 @@ const Footer = () => {
         <>
             <div className="bg-[#EEEFFB]">
                 <div className="py-14 px-10 sm:px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:justify-items-center ">
-                    {/* Column 1: Hekto and Email Subscription */}
                     <div className="space-y-4">
                         <h1 className={`${josefin.className} text-[30px] font-extrabold`}>
                             Hekto
@@ -40,7 +39,6 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    {/* Column 2: Categories */}
                     <div className="space-y-4">
                         <h1 className={`${josefin.className} text-[22px] font-semibold`}>
                             Categories
@@ -56,7 +54,6 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    {/* Column 3: Customer Care */}
                     <div className="space-y-4">
                         <h1 className={`${josefin.className} text-[22px] font-semibold`}>
                             Customer Care
@@ -72,7 +69,6 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    {/* Column 4: Pages */}
                     <div className="space-y-4">
                         <h1 className={`${josefin.className} text-[22px] font-semibold`}>
                             Pages
@@ -95,22 +91,19 @@ const Footer = () => {
                     </p>
 
                     <div className="flex space-x-4">
-                        {/* Facebook Link */}
-                        <Link href="https://www.facebook.com" target="_blank">
+                        <Link href="https://www.facebook.com/imarifluqman" target="_blank">
                             <div className="border-2 bg-[#151875] rounded-full p-2 flex items-center justify-center hover:bg-[#252bef] hover:scale-110 transition-all duration-200 ease-in-out cursor-pointer">
                                 <FiFacebook className="text-white text-xl hover:text-white" />
                             </div>
                         </Link>
 
-                        {/* Instagram Link */}
-                        <Link href="https://www.instagram.com" target="_blank">
+                        <Link href="https://www.instagram.com/imarifluqman" target="_blank">
                             <div className="border-2 bg-[#151875] rounded-full p-2 flex items-center justify-center hover:bg-[#252bef] hover:scale-110 transition-all duration-200 ease-in-out cursor-pointer">
                                 <FaInstagram className="text-white text-xl hover:text-white" />
                             </div>
                         </Link>
 
-                        {/* Twitter Link */}
-                        <Link href="https://www.twitter.com" target="_blank">
+                        <Link href="https://www.twitter.com/imarifluqman" target="_blank">
                             <div className="border-2 bg-[#151875] rounded-full p-2 flex items-center justify-center hover:bg-[#252bef] hover:scale-110 transition-all duration-200 ease-in-out cursor-pointer">
                                 <CiTwitter className="text-white text-xl hover:text-white" />
                             </div>

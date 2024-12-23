@@ -4,7 +4,11 @@ import { lato } from './fonts'
 import { FaRegHeart } from "react-icons/fa";
 import { CgShoppingCart } from "react-icons/cg";
 import { FiZoomIn } from "react-icons/fi";
-function Card() {
+function Card(props: any) {
+
+    let { id, title, image, code, description, price, } = props.data
+
+
     return (
 
         <div className=' lg:w-[260px] md:w-[220px] w-[180px] mx-auto group relative overflow-hidden '
@@ -21,28 +25,28 @@ function Card() {
                         <FiZoomIn />
                     </span>
                 </div>
-                <Image src="/p-chair.png" alt="chair" width={300} height={300} />
+                <Image src={image} alt="chair" width={300} height={200} className='w-[300px] h-[200px]' />
                 <button className='absolute hidden group-hover:block bottom-1 right-1/2 translate-x-1/2 bg-[var(--green)] text-[14px] text-white py-2 px-4'>View Details</button>
             </div>
             <div className='w-full h-auto flex flex-col justify-center items-center gap-4 bg-white '>
-                <p className={` text-[var(--pink)] text-[18px] font-bold ${lato.className}`}>Cantilever chair</p>
+                <p className={` text-[var(--pink)] text-[18px] font-bold ${lato.className}`}>{title}</p>
                 <div className='flex justify-center items-center'>
                     <span className='w-4 h-1 mx-1 bg-[#05E6B7] rounded'></span>
                     <span className='w-4 h-1 mx-1 bg-[var(--pink)] rounded'></span>
                     <span className='w-4 h-1 mx-1 bg-[var(--heading)] rounded'></span>
                 </div>
-                <p className=' text-[var(--heading)]'>Code - Y523201</p>
-                <p className=' text-[var(--heading)]'>$42.00</p>
+                <p className=' text-[var(--heading)]'>{code}</p>
+                <p className=' text-[var(--heading)]'>${price}</p>
             </div>
             <div className='w-full h-auto flex flex-col justify-center items-center gap-4 bg-[#2F1AC4] group-hover:bottom-0 absolute  '>
-                <p className={` text-white text-[18px] font-bold ${lato.className}`}>Cantilever chair</p>
+                <p className={` text-white text-[18px] font-bold ${lato.className}`}>{title}</p>
                 <div className='flex justify-center items-center'>
                     <span className='w-4 h-1 mx-1 bg-[#05E6B7] rounded'></span>
                     <span className='w-4 h-1 mx-1 bg-[var(--pink)] rounded'></span>
                     <span className='w-4 h-1 mx-1 bg-[var(--heading)] rounded'></span>
                 </div>
-                <p className=' text-white'>Code - Y523201</p>
-                <p className=' text-white'>$42.00</p>
+                <p className=' text-white'>{code}</p>
+                <p className=' text-white'>${price}</p>
             </div>
         </div>
 

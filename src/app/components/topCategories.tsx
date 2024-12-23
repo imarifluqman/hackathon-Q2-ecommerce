@@ -10,7 +10,7 @@ function TopCategories() {
                 <Heading>Top Categories</Heading>
                 <section className="flex justify-center">
                     <div className="grid max-w-[1000px] p-3 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-6 py-6 gap-5">
-                        {productsArray?.map((Product, idx) => (
+                        {productsArray.slice(0, 4).map((Product, idx) => (
                             <div key={idx} >
                                 <div className="w-64 h-64 p-4  rounded-none group transition-all duration-300 ">
                                     {/* Image Container */}

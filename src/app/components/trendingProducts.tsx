@@ -14,7 +14,7 @@ export default function TrendingProducts() {
             <Heading> Trending Products</Heading>
             <section className="flex items-center justify-center">
                 <div className="grid max-w-[1000px] p-3 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-6 py-6 gap-5">
-                    {productsArray?.map((Product, idx) => (
+                    {productsArray.slice(0,4).map((Product, idx) => (
                         <div key={idx}>
                             <div className="min-h-64 border-none rounded-none group transition-all duration-300 hover:bg-[#F7F7F7]">
                                 {/* Image Container */}

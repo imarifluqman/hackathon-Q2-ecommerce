@@ -21,10 +21,6 @@ const NewsLetter = () => {
                     </div>
                 </div>
             </div>
-{/* 
-            <div className="max-w-[1000px] flex justify-center items-center mx-auto my-14">
-                <Image src="/rectangle.png" alt="Image" width={600} height={600}></Image>
-            </div> */}
         </div>
     );
 };
