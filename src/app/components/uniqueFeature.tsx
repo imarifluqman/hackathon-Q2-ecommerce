@@ -8,9 +8,9 @@ function UniqueFeature() {
             <div className='w-[400px] my-auto place-self-start'>
                 <p className='text-2xl font-semibold text-[var(--heading)]'>Unique Features Of leatest &
                     Trending Poducts</p>
-                <ul className='my-5 flex flex-col gap-2 '>
-                    <li className='text-[12px] '><span className='w-3 h-3 rounded-full bg-black'>.</span> All frames constructed with hardwood solids and laminates</li>
-                    <li className='text-[12px] '><span className='w-3 h-3 rounded-full bg-black'>.</span> Reinforced with double wood dowels, glue, screw - nails corner
+                <ul className='w-full my-5 flex flex-col gap-2 '>
+                    <li className='text-[12px] '><span className='w-3 h-3 rounded-full bg-[var(--pink)]'>.</span> All frames constructed with hardwood solids and laminates</li>
+                    <li className='text-[12px] '><span className='w-3 h-3 rounded-full bg-[var(--heading)]'>.</span> Reinforced with double wood dowels, glue, screw - nails corner
                         blocks and machine nails</li>
                     <li className='text-[12px] '><span className='w-3 h-3 rounded-full bg-black'>.</span> Arms, backs and seats are structurally reinforced</li>
                 </ul>
