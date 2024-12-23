@@ -2,11 +2,10 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
-import { lato, josefin } from "../../components/fonts"; 
+import { lato, josefin } from "../../components/fonts";
 import { FaStar } from "react-icons/fa";
 import { shopItem } from './shopItem';
 import Checkbox from './checkBox';
-import {data} from "./data"
 
 
 

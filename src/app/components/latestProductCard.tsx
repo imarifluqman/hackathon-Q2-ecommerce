@@ -4,12 +4,7 @@ import { FaRegHeart } from "react-icons/fa";
 import { CgShoppingCart } from "react-icons/cg";
 import { FiZoomIn } from "react-icons/fi";
 function LatestProductCard(props: any) {
-    let { id,
-        title,
-        image,
-        code,
-        description,
-        price } = props.data
+    const { title, image, price } = props.data
     return (
         <div className='lg:w-[310px] w-[90%] mx-auto group relative overflow-hidden'>
             <div className='w-full h-[200px] bg-slate-100'>

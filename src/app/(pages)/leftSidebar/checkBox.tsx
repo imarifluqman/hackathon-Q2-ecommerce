@@ -3,11 +3,7 @@ import React from "react";
 
 
 
-const Checkbox = ({
-    uncheckedBgColor = "#eae6fa", // Default light purple
-    checkedBgColor = "#6c4aed",   // Default dark purple
-    title = "",           // Default title
-}) => {
+const Checkbox = ({title}:any) => {
     const uniqueId = `checkbox-${Math.random().toString(36).substr(2, 9)}`;
 
     return (

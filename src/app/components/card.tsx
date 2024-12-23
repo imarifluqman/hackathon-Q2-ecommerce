@@ -6,7 +6,7 @@ import { CgShoppingCart } from "react-icons/cg";
 import { FiZoomIn } from "react-icons/fi";
 function Card(props: any) {
 
-    let { id, title, image, code, description, price, } = props.data
+    const { title, image, code, price, } = props.data
 
 
     return (
