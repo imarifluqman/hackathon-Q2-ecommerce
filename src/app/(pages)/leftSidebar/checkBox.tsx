@@ -1,9 +1,12 @@
 import React from "react";
 
+interface CheckboxProps {
+    title?: string;
+}
 
 
 
-const Checkbox = ({title}:any) => {
+const Checkbox: React.FC<CheckboxProps> = ({title = ""}) => {
     const uniqueId = `checkbox-${Math.random().toString(36).substr(2, 9)}`;
 
     return (

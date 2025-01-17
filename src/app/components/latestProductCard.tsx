@@ -3,7 +3,17 @@ import Image from 'next/image'
 import { FaRegHeart } from "react-icons/fa";
 import { CgShoppingCart } from "react-icons/cg";
 import { FiZoomIn } from "react-icons/fi";
-function LatestProductCard(props: any) {
+interface ProductData {
+    title: string;
+    image: string;
+    price: number;
+}
+
+interface LatestProductCardProps {
+    data: ProductData;
+}
+
+function LatestProductCard(props: LatestProductCardProps) {
     const { title, image, price } = props.data
     return (
         <div className='lg:w-[310px] w-[90%] mx-auto group relative overflow-hidden'>

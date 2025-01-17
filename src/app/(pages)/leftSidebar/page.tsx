@@ -89,12 +89,12 @@ export default function page() {
                         <div className={`text-[#7E81A2] space-y-2 ${lato.className}`}>
 
 
-                            <Checkbox uncheckedBgColor={'#E5E0FC'} checkedBgColor={'#603EFF'} title='Coster Furniture' />
-                            <Checkbox uncheckedBgColor={'#E5E0FC'} checkedBgColor={'#603EFF'} title='Fusion Dot High Fashion' />
-                            <Checkbox uncheckedBgColor={'#E5E0FC'} checkedBgColor={'#603EFF'} title='Unique Furniture Restore' />
-                            <Checkbox uncheckedBgColor={'#E5E0FC'} checkedBgColor={'#603EFF'} title='Dream Furniture Flipping' />
-                            <Checkbox uncheckedBgColor={'#E5E0FC'} checkedBgColor={'#603EFF'} title='Young Repurposed' />
-                            <Checkbox uncheckedBgColor={'#E5E0FC'} checkedBgColor={'#603EFF'} title='Green DIY furniture' />
+                            <Checkbox title='Coster Furniture' />
+                            <Checkbox title='Fusion Dot High Fashion' />
+                            <Checkbox title='Unique Furniture Restore' />
+                            <Checkbox title='Dream Furniture Flipping' />
+                            <Checkbox title='Young Repurposed' />
+                            <Checkbox title='Green DIY furniture' />
                         </div>
                     </div>
 
@@ -105,9 +105,9 @@ export default function page() {
                         <h2 className={`underline underline-offset-4 font-bold textColor mb-3 text-sm sm:text-lg ${josefin.className}`}>Discount Offer</h2>
                         <div className={`text-[#7E81A2] space-y-2 ${lato.className}`}>
 
-                            <Checkbox uncheckedBgColor={'#FFDBF1'} checkedBgColor={'#FF3EB2'} title='20% Cashback' />
-                            <Checkbox uncheckedBgColor={'#FFDBF1'} checkedBgColor={'#FF3EB2'} title='5% Cashback Offer' />
-                            <Checkbox uncheckedBgColor={'#FFDBF1'} checkedBgColor={'#FF3EB2'} title='25% Discount Offer' />
+                            <Checkbox title='20% Cashback' />
+                            <Checkbox title='5% Cashback Offer' />
+                            <Checkbox title='25% Discount Offer' />
                         </div>
                     </div>
 
@@ -176,15 +176,15 @@ export default function page() {
                         <h2 className={`underline underline-offset-4 font-bold textColor mb-3 text-sm sm:text-lg ${josefin.className}`}>Categories</h2>
                         <div className={`text-[#7E81A2] space-y-2 ${lato.className}`}>
 
-                            <Checkbox uncheckedBgColor={'#FFDBF1'} checkedBgColor={'#FF3EB2'} title='Prestashop' />
-                            <Checkbox uncheckedBgColor={'#FFDBF1'} checkedBgColor={'#FF3EB2'} title='Magento' />
-                            <Checkbox uncheckedBgColor={'#FFDBF1'} checkedBgColor={'#FF3EB2'} title='Bigcommerce' />
-                            <Checkbox uncheckedBgColor={'#FFDBF1'} checkedBgColor={'#FF3EB2'} title='osCommerce' />
-                            <Checkbox uncheckedBgColor={'#FFDBF1'} checkedBgColor={'#FF3EB2'} title='3dcart' />
-                            <Checkbox uncheckedBgColor={'#FFDBF1'} checkedBgColor={'#FF3EB2'} title='Bags' />
-                            <Checkbox uncheckedBgColor={'#FFDBF1'} checkedBgColor={'#FF3EB2'} title='Accessories' />
-                            <Checkbox uncheckedBgColor={'#FFDBF1'} checkedBgColor={'#FF3EB2'} title='Jewellery' />
-                            <Checkbox uncheckedBgColor={'#FFDBF1'} checkedBgColor={'#FF3EB2'} title='Watches' />
+                            <Checkbox title='Prestashop' />
+                            <Checkbox title='Magento' />
+                            <Checkbox title='Bigcommerce' />
+                            <Checkbox title='osCommerce' />
+                            <Checkbox title='3dcart' />
+                            <Checkbox title='Bags' />
+                            <Checkbox title='Accessories' />
+                            <Checkbox title='Jewellery' />
+                            <Checkbox title='Watches' />
                         </div>
                     </div>
 
@@ -195,10 +195,10 @@ export default function page() {
                         <h2 className={`underline underline-offset-4 font-bold textColor mb-3 text-sm sm:text-lg ${josefin.className}`}>Price Filter</h2>
                         <div className={`text-[#7E81A2] space-y-2 ${lato.className}`}>
 
-                            <Checkbox uncheckedBgColor={'#FFDBF1'} checkedBgColor={'#FF3EB2'} title='$0.00 - $150.00' />
-                            <Checkbox uncheckedBgColor={'#FFDBF1'} checkedBgColor={'#FF3EB2'} title='$150.00 - $350.00' />
-                            <Checkbox uncheckedBgColor={'#FFDBF1'} checkedBgColor={'#FF3EB2'} title='$150.00 - $504.00' />
-                            <Checkbox uncheckedBgColor={'#FFDBF1'} checkedBgColor={'#FF3EB2'} title='$450.00 +' />
+                            <Checkbox title='$0.00 - $150.00' />
+                            <Checkbox title='$150.00 - $350.00' />
+                            <Checkbox title='$150.00 - $504.00' />
+                            <Checkbox title='$450.00 +' />
                         </div>
                     </div>
 

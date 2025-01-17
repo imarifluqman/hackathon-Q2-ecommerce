@@ -4,13 +4,24 @@ import { lato } from './fonts'
 import { FaRegHeart } from "react-icons/fa";
 import { CgShoppingCart } from "react-icons/cg";
 import { FiZoomIn } from "react-icons/fi";
-function Card(props: any) {
 
-    const { title, image, code, price, } = props.data
+interface CardProps {
+    title?: string;
+    id: string,
+    image: string,
+    code: string,
+    description: string,
+    price: number,
+}
 
+interface CardComponentProps {
+    data: CardProps;
+}
+
+const Card: React.FC<CardComponentProps> = (props) => {
+    const { title, image, code, price, description } = props.data;
 
     return (
-
         <div className=' lg:w-[260px] md:w-[220px] w-[180px] mx-auto group relative overflow-hidden '
             style={{ boxShadow: "rgba(0, 0, 0, 0.1) 0px 4px 12px, rgba(0, 0, 0, 0.04) 0px 2px 4px" }}>
             <div className='w-full relative p-6 bg-[#F6F7FB] flex justify-center items-center'>
@@ -49,9 +60,7 @@ function Card(props: any) {
                 <p className=' text-white'>${price}</p>
             </div>
         </div>
-
-
-    )
+    );
 }
 
 export default Card
