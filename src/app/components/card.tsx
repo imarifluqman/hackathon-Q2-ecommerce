@@ -19,7 +19,7 @@ interface CardComponentProps {
 }
 
 const Card: React.FC<CardComponentProps> = (props) => {
-    const { title, image, code, price, description } = props.data;
+    const { title, image, code, price } = props.data;
 
     return (
         <div className=' lg:w-[260px] md:w-[220px] w-[180px] mx-auto group relative overflow-hidden '
