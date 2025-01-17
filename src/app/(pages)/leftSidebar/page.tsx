@@ -119,7 +119,7 @@ export default function page() {
 
                             <div className='flex justify-start items-center'>
 
-                                <Checkbox uncheckedBgColor={'#FFF6DA'} checkedBgColor={'#FFCC2E'} />
+                                <Checkbox />
                                 <FaStar className='text-yellow-500 mx-[1px] w-2 h-2 sm:w-4 sm:h-4 ml-1' />
                                 <FaStar className='text-yellow-500 mx-[1px] w-2 h-2 sm:w-4 sm:h-4' />
                                 <FaStar className='text-yellow-500 mx-[1px] w-2 h-2 sm:w-4 sm:h-4' />
@@ -132,7 +132,7 @@ export default function page() {
 
                             <div className='flex justify-start items-center'>
 
-                                <Checkbox uncheckedBgColor={'#FFF6DA'} checkedBgColor={'#FFCC2E'} />
+                                <Checkbox />
                                 <FaStar className='text-yellow-500 mx-[1px] w-2 h-2 sm:w-4 sm:h-4 ml-1' />
                                 <FaStar className='text-yellow-500 mx-[1px] w-2 h-2 sm:w-4 sm:h-4' />
                                 <FaStar className='text-yellow-500 mx-[1px] w-2 h-2 sm:w-4 sm:h-4' />
@@ -144,7 +144,7 @@ export default function page() {
 
                             <div className='flex justify-start items-center'>
 
-                                <Checkbox uncheckedBgColor={'#FFF6DA'} checkedBgColor={'#FFCC2E'} />
+                                <Checkbox />
                                 <FaStar className='text-yellow-500 mx-[1px] w-2 h-2 sm:w-4 sm:h-4 ml-1' />
                                 <FaStar className='text-yellow-500 mx-[1px] w-2 h-2 sm:w-4 sm:h-4' />
                                 <FaStar className='mx-[1px] w-2 h-2 sm:w-4 sm:h-4' />
@@ -157,7 +157,7 @@ export default function page() {
 
                             <div className='flex justify-start items-center'>
 
-                                <Checkbox uncheckedBgColor={'#FFF6DA'} checkedBgColor={'#FFCC2E'} />
+                                <Checkbox />
                                 <FaStar className='text-yellow-500 mx-[1px] w-2 h-2 sm:w-4 sm:h-4 ml-1' />
                                 <FaStar className='text-yellow-500 mx-[1px] w-2 h-2 sm:w-4 sm:h-4' />
                                 <FaStar className='mx-[1px] w-2 h-2 sm:w-4 sm:h-4' />
